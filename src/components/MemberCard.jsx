@@ -2,7 +2,7 @@ import member from "/assets/member.png";
 
 const MemberCard = ({info}) => {
   return (
-    <div className="bg-white flex flex-col items-center gap-4 px-6 pt-6 pb-3 rounded-xl">
+    <div className="bg-white flex flex-col items-center gap-4 px-6 pt-6 pb-3 rounded-xl memberShadow">
       <div>
         <img src={member} alt="" />
       </div>
